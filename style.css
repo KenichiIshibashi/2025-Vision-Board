@@ -1,0 +1,30 @@
+/* Body */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+/* Header */
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  margin: 20px;
+  background-color: rgb(173, 108, 235);
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+.name {
+  margin-bottom: 0.5rem;
+  color: white;
+}
+
+.year {
+  color: white;
+}
